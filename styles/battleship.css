@@ -1,0 +1,67 @@
+.board td {
+  width: 10px;
+  height: 10px;
+  background-color: #8BDAFD;
+  box-shadow: 1px 1px #021C27;
+}
+
+.board td.occupied {
+  background-color: #F4D840;
+}
+
+.board td.hit {
+  background-color: #880000;
+}
+
+.board td.miss {
+  background-color: #000088;
+}
+
+#game-setup .ships .ship-img {
+  margin: 0 14px;
+}
+
+.board .ship-img {
+  position: absolute;
+  margin-top: -5px;
+}
+
+.ship-img {
+  background-color: #F4D840;
+  box-shadow: 1px 1px #021C27;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+}
+
+.ship-img.vertical {
+  width: 10px !important;
+}
+
+.ship-img-2 {
+  width: 24px;
+}
+
+.ship-img-2.vertical {
+  height: 24px;
+}
+
+.ship-img-3 {
+  width: 38px;
+}
+
+.ship-img-3.vertical {
+  height: 38px;
+}
+
+.ship-img-4 {
+  width: 52px;
+}
+
+.ship-img-4.vertical {
+  height: 52px;
+}
+
+#game-play {
+  display: none;
+}
